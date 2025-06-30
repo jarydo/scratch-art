@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/scratch-art",
+            "destination": "/scratch-art/index.html"
+        }
+    ]
+}
