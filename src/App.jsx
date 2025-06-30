@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactP5Wrapper } from "@p5-wrapper/react";
+import stylusImage from '/stylus.png';
 
 function sketch(p5) {
   let baseLayer;
@@ -65,7 +66,7 @@ function sketch(p5) {
   }
   
   p5.preload = () => {
-    cursorImg = p5.loadImage("./stylus.png");
+    cursorImg = p5.loadImage(stylusImage);
   }
   
   p5.setup = () => {
